@@ -13,6 +13,7 @@ const app = express();
 const PORT = env.PORT2;
 const JWT_SECRET = env.JWT_SECRET;
 
+
 const pool = new Pool({
   connectionString: env.DATABASE_URL,
   ssl: {
